@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Esportivos São Luis</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c; /* Fundo escuro */
+            color: #e0e0e0; /* Texto claro */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #cabecalho {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        #conteudo-principal {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            gap: 20px; /* Diminuído o espaço entre os cards */
+            width: 100%;
+        }
+
+        .carro {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 10px; /* Diminuído o espaço entre imagem e texto */
+            max-width: 700px; /* Largura máxima do card */
+            background-color: #282828; /* Fundo dos carros */
+            padding: 10px; /* Diminuído o padding */
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.2s;
+        }
+
+        .carro:hover {
+            transform: scale(1.02); /* Efeito de aumento ao passar o mouse */
+        }
+
+        .imagem-descricao {
+            text-align: center;
+            max-width: 200px; /* Largura máxima da imagem */
+        }
+
+        .imagem-descricao img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 5px; /* Diminuído o espaço abaixo da imagem */
+        }
+
+        .informacoes {
+            max-width: 480px; /* Limita a largura do texto */
+        }
+
+        #rodape {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        #rodape a {
+            color: #f0db4f;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        #rodape a:hover {
+            text-decoration: underline;
+            color: #e0e0e0;
+        }
+
+        p {
+            line-height: 1.5; /* Espaçamento entre linhas */
+            font-size: 14px; /* Tamanho da fonte */
+        }
+
+        h1 {
+            font-size: 2.5em; /* Tamanho do título */
+            margin: 0; /* Remove margens do título */
+        }
+
+        h2 {
+            font-size: 1.5em; /* Tamanho dos subtítulos */
+            margin: 10px 0; /* Margem para subtítulos */
+            color: #f0db4f; /* Cor dos subtítulos */
+        }
+
+        .link-pesquisa {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #f0db4f;
+            text-decoration: none;
+            text-align: center;
+            display: block; /* Para ocupar a linha inteira */
+        }
+    </style>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>Carros Esportivos São Luís </h1>
+        insta:carsportingslz <br>
+        pl.lisboaa <br>
+        vitoriameloyr <br>
+    </header>
+
+    <main id="conteudo-principal">
+        <div class="carro">
+            <div class="imagem-descricao">
+                <img src="figura/porsche1.jpg" alt="Porsche 911 Turbo S">
+                <img src="figura/porsche2.jpg" alt="Porsche 911 Turbo S - Outra Vista">
+            </div>
+            <div class="informacoes">
+                <h2>Porsche 911 Turbo S</h2>
+                <p><strong>Ficha Técnica:</strong><br>
+                Motor: 3.8 L, 6 cilindros, biturbo<br>
+                Potência: 650 hp<br>
+                Torque: 800 Nm<br>
+                Transmissão: PDK de 8 velocidades<br>
+                Tração: Integral (AWD)<br>
+                Aceleração (0-100 km/h): 2,6 segundos<br>
+                Velocidade máxima: 330 km/h<br>
+                Peso: Aproximadamente 1.640 kg<br>
+                </p>
+                <p><strong>Características:</strong><br>
+                O Porsche 911 Turbo S combina potência e precisão, oferecendo desempenho excepcional.
+                 Com uma suspensão ativa e um sistema de tração integral, este carro é uma referência em tecnologia.</p>
+                <a href="https://www.porsche.com" class="link-pesquisa" target="_blank">Pesquisar Porsche 911 Turbo S</a>
+            </div>
+        </div>
+
+        <div class="carro">
+            <div class="imagem-descricao">
+                <img src="figura/laren1.jpg" alt="McLaren Artura">
+                <img src="figura/laren2.jpg" alt="McLaren Artura - Outra Vista">
+            </div>
+            <div class="informacoes">
+                <h2>McLaren Artura</h2>
+                <p><strong>Ficha Técnica:</strong><br>
+                Motor: 3.0 L V6 biturbo + motor elétrico<br>
+                Potência Total: 680 hp<br>
+                Torque: 720 Nm<br>
+                Transmissão: DCT de 8 velocidades<br>
+                Tração: Traseira (RWD)<br>
+                Aceleração (0-100 km/h): Aproximadamente 3.0 segundos<br>
+                Velocidade máxima: 330 km/h<br>
+                Peso: Aproximadamente 1.490 kg<br>
+                </p>
+                <p><strong>Características:</strong><br>
+                A McLaren Artura integra um motor V6 biturbo com um motor elétrico, oferecendo desempenho e eficiência.
+                 Seu design aerodinâmico é otimizado para estabilidade em alta velocidade.</p>
+                <a href="https://www.mclaren.com" class="link-pesquisa" target="_blank">Pesquisar McLaren Artura</a>
+            </div>
+        </div>
+
+        <div class="carro">
+            <div class="imagem-descricao">
+                <img src="figura/lambo2.jpg" alt="Lamborghini Huracán Spyder Evo">
+                <img src="figura/lambo1.jpg" alt="Lamborghini Huracán Spyder Evo - Outra Vista">
+            </div>
+            <div class="informacoes">
+                <h2>Lamborghini Huracán Spyder Evo LP640</h2>
+                <p><strong>Ficha Técnica:</strong><br>
+                Motor: 5.2 L V10 atmosférico<br>
+                Potência: 640 hp<br>
+                Torque: 600 Nm<br>
+                Transmissão: DCT de 7 velocidades<br>
+                Tração: Integral (AWD)<br>
+                Aceleração (0-100 km/h): Aproximadamente 3.1 segundos<br>
+                Velocidade máxima: Cerca de 325 km/h<br>
+                Peso: Aproximadamente 1.570 kg<br>
+                </p>
+                <p><strong>Características:</strong><br>
+                O Huracán Spyder Evo combina um motor V10 com um design agressivo. A experiência de condução é imersiva, com um sistema de suspensão ativa e um interior luxuoso.</p>
+                <a href="https://www.lamborghini.com" class="link-pesquisa" target="_blank">Pesquisar Lamborghini Huracán</a>
+            </div>
+        </div>
+
+        <div class="carro">
+            <div class="imagem-descricao">
+                <img src="figura/bmw2.jpg" alt="BMW Série 2 G87">
+                <img src="figura/bmw1.jpg" alt="BMW Série 2 G87 - Outra Vista">
+            </div>
+            <div class="informacoes">
+                <h2>BMW Série 2 G87</h2>
+                <p><strong>Ficha Técnica:</strong><br>
+                Modelo: BMW 2 Series Coupé (G87)<br>
+                Motorização: 3.0 L turbo 6 cilindros (variante)<br>
+                Potência: Até 306 hp (no modelo M240i)<br>
+                Torque: Até 400 Nm<br>
+                Transmissão: Automática de 8 velocidades<br>
+                Tração: Traseira (RWD) ou integral (AWD)<br>
+                Aceleração (0-100 km/h): Aproximadamente 4.3 segundos (no M240i)<br>
+                Velocidade máxima: Cerca de 250 km/h (limitada eletronicamente)<br>
+                Peso: Aproximadamente 1.600 kg<br>
+                </p>
+                <p><strong>Características:</strong><br>
+                O BMW Série 2 G87 é projetado para uma experiência de condução dinâmica, com um design esportivo e tecnologia de ponta.
+                 O interior é focado no conforto e na conectividade.</p>
+                <a href="https://www.bmw.com" class="link-pesquisa" target="_blank">Pesquisar BMW Série 2 G87</a>
+            </div>
+        </div>
+
+        <div class="carro">
+            <div class="imagem-descricao">
+                <img src="figura/tang1.jpg" alt="Ford Mustang Black Shadow">
+                <img src="figura/tang2.jpg" alt="Ford Mustang Black Shadow - Outra Vista">
+            </div>
+            <div class="informacoes">
+                <h2>Ford Mustang Black Shadow</h2>
+                <p><strong>Ficha Técnica:</strong><br>
+                Motor: V8 5.0 L, aspirado<br>
+                Potência: Aproximadamente 450 hp (varia conforme a versão)<br>
+                Torque: Cerca de 529 Nm<br>
+                Transmissão: Manual de 6 velocidades ou automática de 10 velocidades<br>
+                Tração: Traseira (RWD)<br>
+                Aceleração (0-100 km/h): Aproximadamente 4.0 segundos<br>
+                Velocidade máxima: Cerca de 250 km/h (limitada eletronicamente)<br>
+                Peso: Aproximadamente 1.500 kg<br>
+                </p>
+                <p><strong>Características:</strong><br>
+                O Ford Mustang Black Shadow combina um design agressivo com potência impressionante.
+                 Seu interior é confortável e moderno, com um sistema de infotainment que mantém o motorista sempre conectado.</p>
+                <a href="https://www.ford.com" class="link-pesquisa" target="_blank">Pesquisar Ford Mustang</a>
+            </div>
+        </div>
+    </main>
+
+    <footer id="rodape">
+        <p><a href="https://www.ford.com" target="_blank">Conheça mais sobre a Ford</a></p>
+        <p><a href="https://www.lamborghini.com" target="_blank">Saiba mais sobre a Lamborghini</a></p>
+        <p><a href="https://www.porsche.com" target="_blank">Explore os modelos Porsche</a></p>
+        <p><a href="https://www.bmw.com" target="_blank">Veja todos os modelos da bmw</a></p>
+        <p><a href="https://www.mclaren.com" target="_blank">Olhe os super esportivos da mclaren</a></p>
+    </footer>
+</body>
+</html>
